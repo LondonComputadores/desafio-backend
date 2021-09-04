@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python
+quizproject/__pycache__/
+quizproject/*/__pycache__/
+quizproject/*/*/__pycache__/
+quizproject/*/*/*/__pycache__/
+.env/
+.venv/
+.vscode/
+venv/
+env/
+
+# Local PostgreSQL data
+data/
