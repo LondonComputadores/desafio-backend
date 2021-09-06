@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 ALLOWED_HOSTS.extend(
     filter(
         None,
-        os.environ.get('ALLOWED_HOSTS', '0.0.0.0','').split(','),
+        os.environ.get('ALLOWED_HOSTS', '').split(','),
     )
 )
 
